@@ -4,11 +4,11 @@ An Angular (6) module generating breadcrumbs based on the routing state.
 ## Installation
 ```bash
 # install via npm
-$ npm --save install ngx-breadcrumbs
+$ npm --save install https://github.com/mimacom/ngx-breadcrumbs
 ```
 ```bash
 # install via yarn
-$ yarn add ngx-breadcrumbs
+$ yarn add https://github.com/mimacom/ngx-breadcrumbs
 ```
 
 ## Usage
