@@ -1,13 +1,13 @@
-import { Routes } from '@angular/router';
+import {Routes} from '@angular/router';
 
-import { BrowseBreadcrumbsResolver } from '../browse/browse-breadcrumbs.resolver';
-import { PersonListComponent } from '../person/list/person-list.component';
-import { BrowseComponent } from '../browse/browse.component';
-import { AboutComponent } from '../components/about.component';
-import { HomeComponent } from '../components/home.component';
+import {BrowseBreadcrumbsResolver} from '../browse/browse-breadcrumbs.resolver';
+import {PersonListComponent} from '../person/list/person-list.component';
+import {BrowseComponent} from '../browse/browse.component';
+import {AboutComponent} from '../components/about.component';
+import {HomeComponent} from '../components/home.component';
 
-import { PersonModule } from "../person/person.module";
-import { browseRoutes } from "../browse/browse.routes";
+import {PersonModule} from '../person/person.module';
+import {browseRoutes} from '../browse/browse.routes';
 
 // https://github.com/angular/angular-cli/issues/4192#issuecomment-274775116
 
@@ -18,7 +18,7 @@ export function touch() {
 touch();
 
 
-const routes : Routes = [
+const routes: Routes = [
   {
     path: '',
     component: HomeComponent,
@@ -60,4 +60,4 @@ const routes : Routes = [
   }
 ];
 
-export { routes };
+export {routes};

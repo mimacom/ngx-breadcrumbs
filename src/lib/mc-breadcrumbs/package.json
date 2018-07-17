@@ -1,23 +1,22 @@
 {
   "name": "ngx-breadcrumbs",
   "version": "0.0.3",
-  "description": "Angular 4+ routing breadcrumbs",
+  "description": "Angular 6 routing breadcrumbs",
   "author": {
-    "name": "(null) McNull",
-    "email": "noreplies@hotmail.com"
+    "name": "mimacom"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/McNull/ngx-breadcrumbs"
+    "url": "https://github.com/mimacom/ngx-breadcrumbs"
   },
   "keywords": [
     "angular",
-    "angular4",
+    "angular6",
     "breadcrumbs",
     "routing"
   ],
-  "homepage": "https://github.com/McNull/ngx-breadcrumbs",
+  "homepage": "https://github.com/mimacom/ngx-breadcrumbs",
   "dependencies": {
     "lodash.template": "^4.4.0"
   },

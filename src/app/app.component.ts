@@ -1,11 +1,10 @@
-
-import { Route, Router } from '@angular/router';
-import { Component } from '@angular/core';
+import {Route, Router} from '@angular/router';
+import {Component} from '@angular/core';
 
 export interface INavLink {
-  text: string,
-  path: string,
-  exact: boolean
+  text: string;
+  path: string;
+  exact: boolean;
 }
 
 @Component({
@@ -16,8 +15,8 @@ export interface INavLink {
         <div class="container">
           <ul class="navbar-nav">
             <li *ngFor="let link of navLinks" class="nav-item"
-              [routerLinkActive]="['active']"
-              [routerLinkActiveOptions]="link">
+                [routerLinkActive]="['active']"
+                [routerLinkActiveOptions]="link">
               <a class="nav-link" routerLink="{{ link.path }}">{{ link.text }}</a>
             </li>
           </ul>
@@ -31,7 +30,7 @@ export interface INavLink {
     </div>
   `,
   styles: [
-    `
+      `
       .navbar {
         margin-bottom: 20px;
       }
@@ -62,9 +61,9 @@ export class AppComponent {
       })));
 
     routes.forEach((x) => {
-      if(x.children) {
+      if (x.children) {
         this.getNavLinks(x.children);
       }
-    })
+    });
   }
 }

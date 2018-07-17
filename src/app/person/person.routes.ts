@@ -1,9 +1,9 @@
-import { PersonResolver } from './person.resolver';
-import { PersonEditComponent } from './edit/person-edit.component';
-import { PersonListComponent } from './list/person-list.component';
-import { Routes } from '@angular/router';
+import {PersonResolver} from './person.resolver';
+import {PersonEditComponent} from './edit/person-edit.component';
+import {PersonListComponent} from './list/person-list.component';
+import {Routes} from '@angular/router';
 
-const routes:Routes = [
+const routes: Routes = [
   {
     path: '',
     component: PersonListComponent
@@ -20,4 +20,4 @@ const routes:Routes = [
   }
 ];
 
-export { routes }
+export {routes};
